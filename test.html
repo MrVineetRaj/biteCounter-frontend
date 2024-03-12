@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+  <style>
+    /* Apply border to the table and collapse borders */
+    table {
+      border: 1px solid black;
+      border-collapse: collapse;
+      width: 60%;
+    }
+    /* Apply border to table header cells */
+    th {
+      border: 1px solid black;
+    }
+    /* Apply border to table data cells */
+    td {
+      border: 1px solid black;
+    }
+
+    table tr th table {
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <th>Food</th>
+      <th>
+        <table>
+          <tr>
+            <th>col</th>
+            <th>col</th>
+            <th>col</th>
+            <th>col</th>
+          </tr>
+          <tr>
+            <th>col</th>
+            <th>col</th>
+            <th>col</th>
+            <th>col</th>
+          </tr>
+        </table>
+      </th>
+    </tr>
+  </table>
+</body>
+
+</html>
