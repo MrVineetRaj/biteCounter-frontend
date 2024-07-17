@@ -1,0 +1,41 @@
+.bg{
+  background: steelblue;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  width: 40%;
+  min-width: 280px;
+  text-align: left;
+  background-color: rgb(0,0,0,0.4);
+  padding: 20px 20px 0 20px;
+  border-radius: 10px;
+  color: white;
+  margin: 100px 0;
+}
+
+.form div label{
+  margin: 2px 0 0 0px;
+  font-weight: bold;
+}
+
+.form button{
+  margin: 20px 0 0 0;
+}
+.form p{
+  margin: 20px 0;
+  text-align: center;
+}
+.form p span{
+  color: yellow;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.form div select{
+  margin: 30px 0;
+}

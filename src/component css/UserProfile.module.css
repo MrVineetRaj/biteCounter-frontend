@@ -1,0 +1,13 @@
+.userProfile {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: left;
+  margin: 50px 10px;
+  line-height: 2;
+  border: 2px solid grey;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.4);
+  padding: 30px;
+  min-width: 280px;
+}
