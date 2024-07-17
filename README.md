@@ -1,8 +1,48 @@
-# React + Vite
+Here's the updated README with your GitHub repository URL:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# React Application - BiteCounter Frontend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+
+Follow these instructions to set up and run the project on your local machine.
+
+### Prerequisites
+
+Ensure you have the following installed:
+- Node.js
+- npm (Node Package Manager)
+
+### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/MrVineetRaj/biteCounter-frontend
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd biteCounter-frontend
+    ```
+
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+### Configuration
+
+1. Create a `.env` file in the root of the project and add the following environment variable:
+    ```env
+    VITE_PUBLIC_BACKEND_URL=http://localhost:3000
+    ```
+
+### Running the Application
+
+1. Start the development server:
+    ```bash
+    npm run start
+    ```
+
+2. Open your browser and navigate to `http://localhost:5173` to view the application.
